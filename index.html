@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>send.Better() - Giving Email a Rest: Slides</title>
+		<meta name="description" content="Slides">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-sky-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section class="stack" data-id="09b3d869c73982984d9f28709b590933"><section data-id="9c9defb2a8e6260b480c53a6052ab146"><div class="sl-block" data-block-type="text" style="width: 701px; left: 130px; top: 70px; height: auto;" data-block-id="4055b68188898c0ff34108601b987cb1"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1><span style="font-size:1.4em"><strong><span style="color:#FFFFFF">send.</span>Better()</strong></span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 579px; left: 191px; top: 210px; height: auto;" data-block-id="757d5d1e4167dac04d1bde6de2967ae0"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; color: rgb(51, 51, 51);" dir="ui"><h2>Giving Email a REST</h2></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="fa68b527dc5a4b7244af00132930ade3" style="height: auto; min-width: 30px; min-height: 30px; width: 330px; left: 315px; top: 304px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(106, 110, 111);">
+<p><span style="font-size:1.2em">Matthew Clemente</span></p>
+</div></div>
+
+
+
+<div class="sl-block" data-block-type="image" data-block-id="1db890542f6b261bcd45c2046c59b39c" style="min-width: 30px; min-height: 30px; width: 56px; height: 56px; left: 310px; top: 427px;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="400" data-natural-height="400" data-lazy-loaded="" data-src="sendbetter-ncdevcon/46148f44af3e95e65e0b3dba3d1c69da.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="2404491bd9b61dd248326358e5f8ebec" style="min-width: 30px; min-height: 30px; width: 35px; height: 35px; left: 321px; top: 381px;"><div class="sl-block-style" style="z-index: 15;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="120" data-natural-height="120" data-lazy-loaded="" data-src="sendbetter-ncdevcon/4c19897fb1a48f18788488fe9027f863.png"></div></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="4a747c22fc947d0f011401c552de6543" style="height: auto; min-width: 30px; min-height: 30px; width: 235px; left: 365px; top: 436px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(51, 51, 51);">
+<p style="text-align: left;">@mjclemente84</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 210px; left: 366px; top: 381px;" data-block-id="d20ef3186f8c1dbbbd4df2a754ed6130"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; color: rgb(51, 51, 51);">
+<p style="text-align:left">@mjclemente</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 338px; left: 311px; top: 521px;" data-block-id="4a56e7d2f6bb5d66daee89b05925d2dc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; color: rgb(106, 110, 111);">
+<p><a href="http://blog.mattclemente.com" target="_blank">blog.mattclemente.com</a></p>
+</div></div></section><section data-id="028d616203e131be9910bbc9104febf0"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 70px; height: auto;" data-block-id="4f7527e63454c58c9d1f1ca115ca249e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);" dir="ui">
+<h1><strong>Isn't Email Dying?</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 458px; left: 501px; top: 663px;" data-block-id="66844a0f83f67f906fa8c3e661160e46"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 24;">
+<pre><a href="https://www.nylas.com/blog/email-is-still-not-dead" target="_blank"><span style="font-size:0.5em">https://www.nylas.com/blog/email-is-still-not-dead</span></a></pre>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="aa09336c3c30baca732930cd04fcf980" style="height: auto; min-width: 30px; min-height: 30px; width: 697px; left: 3px; top: 167px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<ul style="color:rgb(91, 91, 91)">
+	<li><span style="font-size:0.5em"><strong>2016:</strong> “<a href="http://www.nytimes.com/2016/10/20/technology/whoever-wins-the-white-house-this-years-big-loser-is-email.html?_r=0" target="_blank">Everything must meet its maker, and for email, that time is nigh</a>” by <em>The New York Times</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2015:</strong> “<a href="http://www.pcmag.com/article2/0,2817,2486597,00.asp" target="_blank">Email is Dead, Again</a>” by <em>PC Magazine</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2015:</strong> “<a href="https://techcrunch.com/2015/03/06/in-a-world-where-email-no-longer-exists/" target="_blank">A World Where Email No longer Exists</a>” by <em>TechCrunch</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2014:</strong> “<a href="http://fortune.com/2014/12/04/email-death-prediction-future/" target="_blank">The beginning of the end for email</a>” by <em>Fortune</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2012</strong>: “<a href="http://www.huffingtonpost.co.uk/2012/06/06/is-email-dead-dying-or-ne_n_1574041.html" target="_blank">Is Email Dead, Dying Or Neither</a>?” by <em>Huffington Post</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2011</strong>: “<a href="http://www.independent.co.uk/life-style/gadgets-and-tech/features/are-we-facing-the-death-of-email-6273170.html" target="_blank">Are we facing the death of email</a>?” by <em>The Independent</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2009:</strong> “<a href="http://www.wsj.com/articles/SB10001424052970203803904574431151489408372" target="_blank">Why Email No Longer Rules</a>” by <em>The Wall Street Journal</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2009: </strong>“<a href="http://www.pcmag.com/article2/0,2817,2343209,00.asp" target="_blank">9 Reasons E-Mail IS Dead</a>” by <em>PC Magazine</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2007</strong>: “<a href="http://www.slate.com/articles/technology/technology/2007/11/the_death_of_email.html" target="_blank">The Death of E-Mail</a>” by <em>Slate</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2004</strong>: “<a href="http://www.pcmag.com/article2/0,2817,1599324,00.asp" target="_blank">The Death of E-mail</a>” by <em>PC Magazine</em></span></li>
+	<li><span style="font-size:0.5em"><strong>2002</strong>: “<a href="http://www.slate.com/articles/technology/webhead/2002/11/death_by_spam.html" target="_blank">The e-mail you know and love is about to vanish</a>” by <em>Slate</em></span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ea90bdcfd9c31720a7aebba6d7338850" style="min-width: 30px; min-height: 30px; width: 262px; height: 203px; left: 674px; top: 170px;"><div class="sl-block-style" style="z-index: 10; transform: rotate(15deg);"><a class="sl-block-content fragment" style="z-index: 10;" href="" target="_top" data-fragment-index="1"><img style="" data-natural-width="1744" data-natural-height="1350" data-lazy-loaded="" data-src="sendbetter-ncdevcon/5c960dbed8bfea1d50b35febc1d1ca91.png"></a></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="66c48480b7f24d65df84a21a073a3176" style="min-width: 30px; min-height: 30px; width: 273px; height: 247px; left: 657px; top: 233px;"><div class="sl-block-style" style="z-index: 14; transform: rotate(8deg);"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="3"><img style="" data-natural-width="1491" data-natural-height="1350" data-lazy-loaded="" data-src="sendbetter-ncdevcon/150aaacfd4e0484c7efeb4767fb93e81.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="e856f93bdd3f212a32ca3e1c52d86845" style="min-width: 30px; min-height: 30px; width: 243px; height: 249px; left: 519px; top: 217px;"><div class="sl-block-style" style="z-index: 13; transform: rotate(347deg);"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="2"><img data-natural-width="1322" data-natural-height="1350" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/23bfbf6afceb79168c4d7daaab442d37.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="71058b36d8324eed34bd0bbe2e2f9dd0" style="min-width: 30px; min-height: 30px; width: 302px; height: 209px; left: 495px; top: 277px;"><div class="sl-block-style" style="z-index: 15; transform: rotate(348deg);"><div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="4"><img data-natural-width="1562" data-natural-height="1080" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/d3f9099e5d13b2222f7d7c2648b0fd65.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="1d0acd93d04ed6b30ea7ace299d0c2e2" style="min-width: 30px; min-height: 30px; width: 283px; height: 236px; left: 639px; top: 329px;"><div class="sl-block-style" style="z-index: 16; transform: rotate(14deg);"><div class="sl-block-content fragment" style="z-index: 16;" data-fragment-index="5"><img style="" data-natural-width="1390" data-natural-height="1160" data-lazy-loaded="" data-src="sendbetter-ncdevcon/8c31fd0a9c8b97c9b34d16229febcf30.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="272689cb7e266f08a521b417663caf85" style="min-width: 30px; min-height: 30px; width: 287px; height: 171px; left: 488px; top: 362px;"><div class="sl-block-style" style="z-index: 17; transform: rotate(4deg);"><div class="sl-block-content fragment" style="z-index: 17;" data-fragment-index="6"><img data-natural-width="1858" data-natural-height="1108" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/a353f354fb744729061691c893c94aed.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="97e62984d9f7b5166337d6becc2b031e" style="min-width: 30px; min-height: 30px; width: 249px; height: 166px; left: 682px; top: 407px;"><div class="sl-block-style" style="z-index: 18; transform: rotate(343deg);"><div class="sl-block-content fragment" style="z-index: 18;" data-fragment-index="7"><img style="" data-natural-width="554" data-natural-height="369" data-lazy-loaded="" data-src="sendbetter-ncdevcon/ec6cff9457f8363b2ab3eefc9b669189.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="252d7a04a0e94425934f2166e67e7ac3" style="min-width: 30px; min-height: 30px; width: 246px; height: 190px; left: 515px; top: 466px;"><div class="sl-block-style" style="z-index: 19; transform: rotate(9deg);"><div class="sl-block-content fragment" style="z-index: 19;" data-fragment-index="8"><img data-natural-width="1504" data-natural-height="1160" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/65f3d81f725cb5f449a8748eeb5081da.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ae9a0ca60d87cd0c9f968aa332843d5a" style="min-width: 30px; min-height: 30px; width: 269px; height: 188px; left: 666px; top: 482px;"><div class="sl-block-style" style="z-index: 20; transform: rotate(350deg);"><div class="sl-block-content fragment" style="z-index: 20;" data-fragment-index="9"><img data-natural-width="823" data-natural-height="575" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/f23ab88bc8994c0ac531b0e0fe79dcdb.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="e749c83eb190135ca838f8e6fdda3159" style="min-width: 30px; min-height: 30px; width: 215px; height: 160px; left: 517px; top: 513px;"><div class="sl-block-style" style="z-index: 21; transform: rotate(355deg);"><div class="sl-block-content fragment" style="z-index: 21;" data-fragment-index="10"><img style="" data-natural-width="1512" data-natural-height="1126" data-lazy-loaded="" data-src="sendbetter-ncdevcon/4e8d16ee6a55e4ba4b112fe631401607.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="29bb1f3cf70d080bd62af554068c50ad" style="min-width: 30px; min-height: 30px; width: 253px; height: 133px; left: 685px; top: 520px;"><div class="sl-block-style" style="z-index: 22; transform: rotate(14deg);"><div class="sl-block-content fragment" style="z-index: 22;" data-fragment-index="11"><img data-natural-width="1614" data-natural-height="848" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/a9695cae0e23679c57447fd091a403d2.png"></div></div></div></section><section data-id="cb5ab59d881135d62005ba4a604ef7a7"><div class="sl-block" data-block-type="image" data-block-id="06bbb444e3cec2f9522d009604d0b7a5" style="min-width: 30px; min-height: 30px; width: 319px; height: 319px; left: 2px; top: 380px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/50e6386028f425861be38bcf7d53b2e5.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="38864f7b2064a2d86dcc5171dbc808e5" style="min-width: 30px; min-height: 30px; width: 390px; height: 390px; left: 9px; top: 1px;"><div class="sl-block-style" style="z-index: 12; opacity: 0.75;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/bdeaadb123b39d1fa12e394690f4c85b.png"></div></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="b92877ae49225815469f2f29f1c68ae8" style="height: auto; min-width: 30px; min-height: 30px; width: 329px; left: 50px; top: 97px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(51, 51, 51);">
+<p style="text-align:left">The report of my</p>
+
+<p style="text-align:left">death has been grossly</p>
+
+<p style="text-align:left">exaggerated.</p>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" data-block-id="a628a2f9ee577b0dd33b79a51d83d478" style="height: auto; min-width: 30px; min-height: 30px; width: 547px; left: 412px; top: 0px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 70%; text-align: left;">
+<blockquote>
+<p style="text-align:left"><span style="font-size:1.0em">Nearly half of us can’t even use the bathroom without checking email... In sum, Americans are addicted to email.</span></p>
+</blockquote>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="582b6b9453b4058fe8c407fbad6dbbcb" style="height: auto; min-width: 30px; min-height: 30px; width: 533px; left: 426px; top: 109px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; font-size: 70%; text-align: left;">
+<blockquote>
+<p style="text-align:left">Teens and younger Millennials told us that they have email addresses... because "It's a fact of everyday life"</p>
+</blockquote>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="9564012671b2bffc8f753b0745c8b341" style="height: auto; min-width: 30px; min-height: 30px; width: 392px; left: 568px; top: 154px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;">
+<p><span style="font-size:0.5em">Adestra Consumer Digital Usage &amp; Behavior Study 2017</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 309px; left: 648px; top: 54px;" data-block-id="46c8f16d10a718a1825da2c5526e4292"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19;">
+<p><span style="font-size:0.5em">Adobe Digital Insights Email Survey 2016</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="83af92c4c703ebdf521e6de804a1387d" style="min-width: 30px; min-height: 30px; width: 593px; height: 451px; left: 366px; top: 249px;"><a class="sl-block-content" style="z-index: 21;" href="http://www.radicati.com/wp/wp-content/uploads/2017/01/Email-Statistics-Report-2017-2021-Executive-Summary.pdf" target="_blank"><img style="" data-natural-width="1141" data-natural-height="868" data-lazy-loaded="" data-src="sendbetter-ncdevcon/b6a6432af9be17eddc90b9b4ba409805.png"></a></div></section><section data-id="443abce9e8dabacbfc77e2578dac2fc1"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 70px; height: auto;" data-block-id="7c6da3fbf69ba651c56aad113cda90d7"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1><strong><span style="font-size:1.0em">Who?</span></strong></h1>
+</div></div>
+
+<div class="sl-block" data-block-type="image" data-block-id="9ce1e3604f6dffbd7a5ff3f6fa8f356b" style="min-width: 30px; min-height: 30px; width: 480px; height: 77px; left: 0px; top: 382px;"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="4"><img style="" data-natural-width="490" data-natural-height="79" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e7c4341f2b83dafb6b5345b2195ba9c4.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="29fcdca414c4f2b29788f54610ccd033" style="min-width: 30px; min-height: 30px; width: 481px; height: 105px; left: 0px; top: 526px;"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="2"><img style="" data-natural-width="2500" data-natural-height="548" data-lazy-loaded="" data-src="sendbetter-ncdevcon/6bdaffdb6c81af08db0f3a1e1616d904.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ee3a06d6501abf4b45a4d4f4e38acffa" style="min-width: 30px; min-height: 30px; width: 324px; height: 122px; left: 318px; top: 210px;"><div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="0"><img style="" data-natural-width="2000" data-natural-height="752" data-lazy-loaded="" data-src="sendbetter-ncdevcon/197bdeaefe3ce621eca3aa1b7962c2bd.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="9c6a88d72534cc15113c6f84c6e9738c" style="min-width: 30px; min-height: 30px; width: 400px; height: 127px; left: 560px; top: 509px;"><div class="sl-block-content fragment" style="z-index: 16;" data-fragment-index="1"><img style="" data-natural-width="1000" data-natural-height="317" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e79d3ce15a363f7ef6311ee164d176f9.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="3b23a7e7daeff44d8f669745c15db88f" style="min-width: 30px; min-height: 30px; width: 400px; height: 104px; left: 560px; top: 349px;"><div class="sl-block-content fragment" style="z-index: 17;" data-fragment-index="3"><img style="" data-natural-width="1034" data-natural-height="269" data-lazy-loaded="" data-src="sendbetter-ncdevcon/876376aede71bc0db833506e92b7a2dd.png"></div></div></section><section data-id="e924050990af30fcaed12eca1d58b646"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 70px; height: auto;" data-block-id="7f9c98f063e7c87f818ae03f930a30b0"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1><strong>Not...</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 212px; height: auto;" data-block-id="558cdd98f4380df73add5976e0c931a1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li class="">
+	<p>Mandrill</p>
+	</li>
+	<li class="">
+	<p>Mailjet</p>
+	</li>
+	<li class="">
+	<p>SendinBlue</p>
+	</li>
+	<li class="">
+	<p>Campaign Monitor</p>
+	</li>
+	<li class="">
+	<p>Knowtify</p>
+	</li>
+	<li class="">
+	<p>Elastic Email</p>
+	</li>
+	<li class="">
+	<p>Pepipost</p>
+	</li>
+	<li class="">
+	<p>Etc., etc., etc.</p>
+	</li>
+</ul>
+</div></div></section><section data-id="87affbb2359ab2d04f4c27b992c940fb"><div class="sl-block" data-block-type="text" style="width: 394px; left: 43px; top: 33px; height: auto;" data-block-id="c145583c489463e795114fd34e8325b6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 13; color: rgb(59, 117, 158);">
+<h2>Transactional</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 545px; top: 33px; height: auto;" data-block-id="be56c5e8773a1ad53b4e5dd3d0701e68"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 14; color: rgb(59, 117, 158);">
+<h2>Marketing</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 537px; top: 225px; height: auto;" data-block-id="307eeb4c98924bd1dbf3f197f136ae61"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 15; color: rgb(51, 51, 51);">
+<p>Messages to groups of users that are not triggered by a specific action on their part. Examples include newsletters, invitations, announcements, and promotions.</p>
+</div></div>
+<div class="sl-block" data-block-type="shape" data-block-id="38724dc4c672bbf52e13e12b3913ae2a" style="min-width: 4px; min-height: 4px; width: 566px; height: 490px; left: 0px; top: 140px;"><div class="sl-block-style" style="z-index: 12; opacity: 0.25;"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(21, 200, 216)" data-shape-stretch="false" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="xMidYMid" viewbox="0 0 490 490"><ellipse rx="245" ry="245" cx="245" cy="245" class="shape-element" fill="rgb(21, 200, 216)"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 561px; height: 490px; left: 398px; top: 140px;" data-block-id="a3f79e9999df8a200ab46d460b6eb75e"><div class="sl-block-style" style="z-index: 11; opacity: 0.25;"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(153, 0, 255)" data-shape-stretch="false" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="xMidYMid" viewbox="0 0 490 490"><ellipse rx="245" ry="245" cx="245" cy="245" class="shape-element" fill="rgb(153, 0, 255)"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="73a14089c564acf84b4fa2369a9f8f3f" style="min-width: 30px; min-height: 30px; width: 68px; height: 71px; left: 880px; top: 341px;"><div class="sl-block-style" style="z-index: 16; opacity: 0.5;"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="476" data-natural-height="499" data-lazy-loaded="" data-src="sendbetter-ncdevcon/5019b34e0c38d30d1d8003f3b48bc26f.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="31d3b8805c9f7f7822636deab99cdaad" style="min-width: 30px; min-height: 30px; width: 226px; height: 30px; left: 574px; top: 164px;"><div class="sl-block-style" style="z-index: 17; opacity: 0.5;"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1200" data-natural-height="159" data-lazy-loaded="" data-src="sendbetter-ncdevcon/9141cd6ad86fc049ef357c19ab60db19.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ae71d2b8ce6ccd07f7f34aeece0d4df1" style="min-width: 30px; min-height: 30px; width: 236px; height: 59px; left: 722px; top: 514px;"><div class="sl-block-style" style="z-index: 18; opacity: 0.5;"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="2500" data-natural-height="625" data-lazy-loaded="" data-src="sendbetter-ncdevcon/0e3648aacdc8cd2200134247194526d2.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="9ca2fdc182f9a9473efd5c8dac52cb2e" style="min-width: 30px; min-height: 30px; width: 302px; height: 30px; left: 619px; top: 635px;"><div class="sl-block-style" style="z-index: 19; opacity: 0.5;"><div class="sl-block-content" style="z-index: 19;"><img style="" data-natural-width="1796" data-natural-height="178" data-lazy-loaded="" data-src="sendbetter-ncdevcon/6bd17999110ab189394db044cc6b8154.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="611d1c73100219affc8c5007df402e5a" style="min-width: 30px; min-height: 30px; width: 152px; height: 42px; left: 796px; top: 189px;"><div class="sl-block-style" style="z-index: 20; opacity: 0.5;"><div class="sl-block-content" style="z-index: 20;"><img style="" data-natural-width="1646" data-natural-height="455" data-lazy-loaded="" data-src="sendbetter-ncdevcon/eb8e6f0be8f4ed68fff9178e6e0c6f9b.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="3db51931f424718dda1de034cd51efc5" style="min-width: 30px; min-height: 30px; width: 186px; height: 30px; left: 189px; top: 164px;"><div class="sl-block-style" style="z-index: 21; opacity: 0.5;"><div class="sl-block-content" style="z-index: 21;"><img style="" data-natural-width="490" data-natural-height="79" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e7c4341f2b83dafb6b5345b2195ba9c4.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="40d660b3e3d8c346fa8e4fb4bf752a6a" style="min-width: 30px; min-height: 30px; width: 183px; height: 40px; left: 320px; top: 543px;"><div class="sl-block-style" style="z-index: 22; opacity: 0.5;"><div class="sl-block-content" style="z-index: 22;"><img style="" data-natural-width="2500" data-natural-height="548" data-lazy-loaded="" data-src="sendbetter-ncdevcon/6bdaffdb6c81af08db0f3a1e1616d904.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="dcadd54453b64eb52516b35db87f0cd8" style="min-width: 30px; min-height: 30px; width: 165px; height: 62px; left: 224px; top: 603px;"><div class="sl-block-style" style="z-index: 23; opacity: 0.5;"><div class="sl-block-content" style="z-index: 23;"><img style="" data-natural-width="2000" data-natural-height="752" data-lazy-loaded="" data-src="sendbetter-ncdevcon/197bdeaefe3ce621eca3aa1b7962c2bd.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="71778167f6e6636c0f822af8c4435585" style="min-width: 30px; min-height: 30px; width: 155px; height: 49px; left: 15px; top: 179px;"><div class="sl-block-style" style="z-index: 24; opacity: 0.5;"><div class="sl-block-content" style="z-index: 24;"><img style="" data-natural-width="1000" data-natural-height="317" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e79d3ce15a363f7ef6311ee164d176f9.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="4ae082a3bc261be3e996b74584397abe" style="min-width: 30px; min-height: 30px; width: 196px; height: 51px; left: 13px; top: 552px;"><div class="sl-block-style" style="z-index: 25; opacity: 0.5;"><div class="sl-block-content" style="z-index: 25;"><img style="" data-natural-width="1034" data-natural-height="269" data-lazy-loaded="" data-src="sendbetter-ncdevcon/876376aede71bc0db833506e92b7a2dd.png"></div></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 80px; top: 240px; height: auto;" data-block-id="33d1a694025a577f8505cbac7ec9da6d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 26; color: rgb(51, 51, 51);">
+<p>Email triggered by a user action or an action they were the target of. Directed to individuals,   not groups. Transactional emails are part of an interaction.</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="850491a24b290b909597695ed76af7e3" style="min-width: 30px; min-height: 30px; width: 209px; height: 37px; left: 591px; top: 565px;"><div class="sl-block-style" style="z-index: 27; opacity: 0.5;"><div class="sl-block-content" style="z-index: 27;"><img data-natural-width="1287" data-natural-height="228" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/b94d6a5136d61b9031ee961e2697a7e7.png"></div></div></div></section><section data-id="b77077d8f9a27433b173fcd8c8b8e520"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 68px; height: auto;" data-block-id="ccc170b7c4f486b0abcf83e78a26d5a3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);" dir="ui">
+<h1><strong>Transactional Email?</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 210px; height: auto;" data-block-id="2ef22a58f7ad41b9a238efd83f9550d8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(106, 110, 111);">
+<ul>
+	<li class="visible">
+	<p>Account creation</p>
+	</li>
+	<li class="visible">
+	<p>Email verification</p>
+	</li>
+	<li class="visible">
+	<p>Password reset</p>
+	</li>
+	<li class="visible">
+	<p>Receipts</p>
+	</li>
+	<li class="visible">
+	<p>Requested updates</p>
+	</li>
+	<li class="visible">
+	<p>Comment notifications</p>
+	</li>
+	<li class="visible">
+	<p>Weekly digests or reports</p>
+	</li>
+</ul>
+</div></div></section><section data-id="4bb9155b7402be1346741addbc047c01"><div class="sl-block" data-block-type="text" data-block-id="05378ed4c5861ee368af5e034b5f190c" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 467px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<p>What these services do is enable developers to easily</p>
+
+<p>utilize email as a first class citizen in their application</p>
+
+<p>to enhance that interaction. That is, to improve the interface.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 328px;" data-block-id="d670c23b3a54ece8188fab60a60f82c6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(51, 51, 51);">
+<p>Transactional emails are part of an <em>interaction. </em>Interaction implies an interface.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="c3559374d2e33f217b06a56af9e135c6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12; color: rgb(59, 117, 158);" dir="ui">
+<h1><strong>Email Is An Interface</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 220px;" data-block-id="d0db5b1090f154a9ea6f885e0529131c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(51, 51, 51);">
+<p>Email is a fundamental, inescapable point of interaction.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="41c85f26f6347446a5af0a888749b026" style="height: auto; min-width: 30px; min-height: 30px; width: 193px; left: 767px; top: 617px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<pre style="text-align:left"><a href="http://ryanhoover.me/post/50734379955/email-as-an-interface" target="_blank"><span style="font-size:0.5em">Email as an Interface</span></a></pre>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 183px; left: 776px; top: 640px;" data-block-id="32f4612884e0331e71eb7c1bab3c3a58"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<pre style="text-align:left"><a href="http://ryanhoover.me/post/43986871442/email-first-startups" target="_blank"><span style="font-size:15px">Email First Startups</span></a></pre>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 318px; left: 641px; top: 664px;" data-block-id="99a192ada31aa776ff770201a2ea021c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<pre style="text-align:left"><a href="https://news.ycombinator.com/item?id=5279590" target="_blank"><span style="font-size:15px">Email First Startups on Hacker News</span></a></pre>
+</div></div></section><section data-id="bf01ec91282a8ce49f4110f6a0f37421">
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 0px; height: auto;" data-block-id="34ee3117e8838b7577bd8b139c2ee535"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);" dir="ui">
+<h1><strong>Examples</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="d0ee5ba9022ae98429705a19ae34e945" style="min-width: 30px; min-height: 30px; width: 426px; height: 499px; left: 0px; top: 90px;"><div class="sl-block-content" style="z-index: 12; transition-duration: 0.6s; transition-delay: 10s;" data-animation-type="fade-out"><img data-natural-width="381" data-natural-height="446" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/3cc986ed10e6f0673fed6390941ff463.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="def0b4bce6ea135650c20e4aca8687ba" style="min-width: 30px; min-height: 30px; width: 612px; height: 473px; left: 348px; top: 191px;"><div class="sl-block-content" style="z-index: 13; transition-duration: 0.6s; transition-delay: 15s;" data-animation-type="fade-out"><img data-natural-width="927" data-natural-height="717" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/d9020facb50e8a1f28b041819488d6bc.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="818985a3680b8a48721debcaf7b804a1" style="min-width: 30px; min-height: 30px; width: 755px; height: 543px; left: 103px; top: 133px;"><div class="sl-block-content" style="z-index: 14; transition-duration: 0.6s; transition-delay: 16s;" data-animation-type="fade-in"><img data-natural-width="1876" data-natural-height="1350" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/f6be22a6518540d551be3610d3e878d5.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="17b2f93dc4dc30e21fa4153380d52017" style="min-width: 30px; min-height: 30px; width: 957px; height: 555px; left: 3px; top: 133px;"><div class="sl-block-content" style="z-index: 15; transition-duration: 0.6s; transition-delay: 25s;" data-animation-type="fade-in"><img data-natural-width="1000" data-natural-height="580" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/df6b7a42b7e79546957cee66833acf0e.png"></div></div></section><section data-id="cef06cd4532717f4cb69f0ad0f54153d"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 135px; height: auto;" data-block-id="53e970b4e65d43907cae2e31ee9b6f60"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158); transition-duration: 1s; transition-delay: 1s;" data-animation-type="slide-down">
+<h1><strong>You can build a better email interface for your application.</strong></h1>
+</div></div></section><section data-id="8f921bde4a20f27232a455c4193535ec"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 65px; height: auto;" data-block-id="7b2f5eafcaa1ac5cd1c3a426d26f77e1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1><strong>Benefits</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 212px; height: auto;" data-block-id="f992383f35e1f2ad7634a52f73b70aee"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li style="text-align:left">Easy to integrate</li>
+	<li style="text-align:left">Logging</li>
+	<li style="text-align:left">Extensibility</li>
+	<li style="text-align:left"><span style="color:rgb(51, 51, 51); text-align:left">Reporting/Analytics</span></li>
+	<li style="text-align:left"><span style="color:rgb(51, 51, 51); text-align:left">Templates</span></li>
+	<li style="text-align:left">Deliverability,</li>
+	<li style="text-align:left">Inbound/Webhooks</li>
+</ul>
+</div></div></section><section data-id="b4e1fdfa01f2186bac7b84276277786e"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="d8e44ce1f38c2e4e4ccfcde960163655"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1><span style="font-size:67.5px"><strong>Example</strong></span></h1>
+</div></div>
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 163px; height: 163px; left: 353px; top: 119px;" data-block-id="9f68ba1fff28dcf40ba18353d670aa91"><div class="sl-block-style" style="z-index: 12; transform: rotate(38deg); opacity: 0.66;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/ea4fc1d60cfcf7b981e35803d0b3da3b.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 168px; height: 77px; left: 595px; top: 133px;" data-block-id="c539d015de6efd8a2278e9612944a011"><div class="sl-block-style" style="z-index: 13; opacity: 0.9;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1200" data-natural-height="549" data-lazy-loaded="" data-src="sendbetter-ncdevcon/f1574404e2947d384e0946e5df717817.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 85px; height: 85px; left: 660px; top: 230px;" data-block-id="1c3512a2339f7bcabe2c98ba0242a396"><div class="sl-block-style" style="z-index: 14; opacity: 0.66;"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/54064e3a7fe9d32e059b3c41041af70e.png"></div></div></div>
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 85px; height: 85px; left: 658px; top: 421px;" data-block-id="0282dce366ba89cb169646d6fc55ce06"><div class="sl-block-style" style="z-index: 15; opacity: 0.66;"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/54064e3a7fe9d32e059b3c41041af70e.png"></div></div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 211px; height: 211px; left: 356px; top: 489px;" data-block-id="e373e8fb12b797abeadd159a5ffda7c2"><div class="sl-block-style" style="z-index: 16; transform: rotate(180deg); opacity: 0.66;"><div class="sl-block-content" style="z-index: 16;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/043f3e4a8fd41c3a74ef8487368ae260.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 136px; height: 136px; left: 134px; top: 506px;" data-block-id="884e1a1426ec069f28d00c3bb1a8a54f"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/b4ed5b58dd56391a79d15f04f2996837.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="53df9690e339e702958ef6157303aac8" style="min-width: 30px; min-height: 30px; width: 263px; height: 138px; left: 0px; top: 166px;"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="1200" data-natural-height="630" data-lazy-loaded="" data-src="sendbetter-ncdevcon/36d8e7a991f0fbc184767a36847e267c.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="e90d5d36f5834aa66f7a1091b85ec317" style="min-width: 30px; min-height: 30px; width: 368px; height: 138px; left: 512px; top: 304px;"><div class="sl-block-content" style="z-index: 19;"><img style="" data-natural-width="576" data-natural-height="216" data-lazy-loaded="" data-src="sendbetter-ncdevcon/71fe01e5fab837e86819c84ea5ddef01.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="5252aa39a7f7f9771e4603f4cd229c20" style="min-width: 30px; min-height: 30px; width: 106px; height: 106px; left: 202px; top: 182px;"><div class="sl-block-style" style="z-index: 20; opacity: 0.66;"><div class="sl-block-content" style="z-index: 20;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/460ea7c7ea052651785dd896f1c6cde6.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="6bcffd70f4ec12d8dd6af72eb86e758f" style="min-width: 30px; min-height: 30px; width: 120px; height: 120px; left: 640px; top: 522px;"><div class="sl-block-style" style="z-index: 21; opacity: 0.75;"><div class="sl-block-content" style="z-index: 21;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/6faaee6561a7adb8ba1dbc33fbea8dcc.png"></div></div></div></section><section data-id="73abc8957fa36d9eef81d637454a8fe1"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 183px; height: auto;" data-block-id="ab8fd756204d37adf916459193ec4f9e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1><strong>So which is best?</strong></h1>
+</div></div>
+</section><section data-id="112c205ff7cb74d073f06c22e768624c">
+<div class="sl-block" data-block-type="image" style="width: 338px; height: 245px; left: 0px; top: 0px;" data-block-id="a8969b0f72237d8a8c6eb644e6fc66da"><div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="0"><img style="" data-natural-width="896" data-natural-height="650" data-lazy-loaded="" data-src="sendbetter-ncdevcon/fd293849a2d30d265f4be3306da6ce8f.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 542px; height: 435px; left: 418px; top: 0px;" data-block-id="8e9b98d5d05b94e53b5e8e1edb203248"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="1"><img style="" data-natural-width="1302" data-natural-height="1046" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e830f92539db358eb0b7417272a0b85e.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 491px; height: 396px; left: 0px; top: 304px;" data-block-id="47e3440d594646ba81447cea08d2c3c4"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="2"><img style="" data-natural-width="1298" data-natural-height="1046" data-lazy-loaded="" data-src="sendbetter-ncdevcon/5f1e1d1b090143766571af9514351a3a.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="b062c79f25f94b9aeb70d9d7616f75d7" style="min-width: 30px; min-height: 30px; width: 507px; height: 464px; left: 453px; top: 236px;"><div class="sl-block-content fragment" style="z-index: 14; border-width: 1px;" data-fragment-index="3"><img style="" data-natural-width="1328" data-natural-height="1216" data-lazy-loaded="" data-src="sendbetter-ncdevcon/448e41a4e94293f98685dfa1947e2bf8.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="21d9fef279ef28eb367695e4a0ae78a6" style="min-width: 30px; min-height: 30px; width: 606px; height: 466px; left: 160px; top: 129px;"><div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="4"><img style="" data-natural-width="1032" data-natural-height="794" data-lazy-loaded="" data-src="sendbetter-ncdevcon/55c63aebee1f3940cb5fb268f1d95f0a.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="7bdd0303181bda2a97476f9502e6464a" style="height: auto; min-width: 30px; min-height: 30px; width: 112px; left: 351px; top: 85px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 500%; text-align: center;" data-fragment-index="5">
+<h1>?</h1>
+</div></div></section><section data-id="9f0708a5305b7f2ed157dd5b4f89fd76"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="8b9adcee47cba16ed341dcec0458e308"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1><strong>Generalized Use Cases</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="f9725d2cca474dd609ee3482e474f370" style="height: auto; min-width: 30px; min-height: 30px; width: 475px; left: 38px; top: 180px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 75%;">
+<p style="text-align:left">If the single most important factor is cost...</p>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 746px; left: 38px; top: 287px;" data-block-id="099f807cdb4ac713b7116c8899b82d7b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 75%;">
+<p style="text-align:left">Looking to combine marketing/transactional</p>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 623px; left: 38px; top: 392px;" data-block-id="6a13c1b3842767275885122160405a2d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 75%;">
+<p style="text-align:left">Only sending transactional and can't afford missing emails</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 151px; height: 151px; left: 528px; top: 428px;" data-block-id="bbb1b27d9be5a7089322d4fc76146e4a"><div class="sl-block-style" style="z-index: 15; transform: rotate(5deg); opacity: 0.75;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/043f3e4a8fd41c3a74ef8487368ae260.png"></div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 623px; left: 38px; top: 490px;" data-block-id="da48634088fc098b84c563dbf9d00030"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 75%;">
+<p style="text-align:left">Developer friendly (better marketing support)</p>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 623px; left: 38px; top: 600px;" data-block-id="3aa39171c43e70fcd73c122bbc1d9b8c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; font-size: 75%;">
+<p style="text-align:left">Developer friendly (better logs / inbound handling)</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ea84e13964cd311eaf65c6af4fec139d" style="min-width: 30px; min-height: 30px; width: 218px; height: 82px; left: 654px; top: 97px;"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="2000" data-natural-height="752" data-lazy-loaded="" data-src="sendbetter-ncdevcon/197bdeaefe3ce621eca3aa1b7962c2bd.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="16e3cbd55bb810ee4d0c3e4abc5bb38c" style="min-width: 30px; min-height: 30px; width: 256px; height: 64px; left: 661px; top: 248px;"><div class="sl-block-content" style="z-index: 19;"><img style="" data-natural-width="2500" data-natural-height="625" data-lazy-loaded="" data-src="sendbetter-ncdevcon/359c870239e05fe66a05921cf7334bb0.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="884438ff92f9fa7396023bfb095ba486" style="min-width: 30px; min-height: 30px; width: 243px; height: 91px; left: 674px; top: 337px;"><div class="sl-block-content" style="z-index: 20;"><img style="" data-natural-width="576" data-natural-height="216" data-lazy-loaded="" data-src="sendbetter-ncdevcon/71fe01e5fab837e86819c84ea5ddef01.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="b2f9481237daa3100103086cd09ee31e" style="min-width: 30px; min-height: 30px; width: 119px; height: 119px; left: 501px; top: 119px;"><div class="sl-block-style" style="z-index: 21; transform: rotate(31deg); opacity: 0.75;"><div class="sl-block-content" style="z-index: 21;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/ea4fc1d60cfcf7b981e35803d0b3da3b.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="5a80f97034bef946604710be2c059b14" style="min-width: 30px; min-height: 30px; width: 84px; height: 84px; left: 643px; top: 386px;"><div class="sl-block-style" style="z-index: 22; transform: rotate(20deg); opacity: 0.75;"><div class="sl-block-content" style="z-index: 22;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/f9adcf64d18134c1ba2e56a5b0930820.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="2280f42b60fcc523026b0cda3dd35d83" style="min-width: 30px; min-height: 30px; width: 132px; height: 132px; left: 529px; top: 218px;"><div class="sl-block-style" style="z-index: 23; opacity: 0.75;"><div class="sl-block-content" style="z-index: 23;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/12a9da604ad175504b1231515b1957b9.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ab08be11210299ba07d99584e549742e" style="min-width: 30px; min-height: 30px; width: 81px; height: 81px; left: 598px; top: 611px;"><div class="sl-block-style" style="z-index: 24; transform: rotate(356deg); opacity: 0.75;"><div class="sl-block-content" style="z-index: 24;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/a53c229bec1d0b84a1aa59c4e82a9ff9.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="c4fafe2b496dda847515cfa3c99c009e" style="min-width: 30px; min-height: 30px; width: 211px; height: 55px; left: 695px; top: 482px;"><div class="sl-block-content" style="z-index: 25;"><img style="" data-natural-width="1034" data-natural-height="269" data-lazy-loaded="" data-src="sendbetter-ncdevcon/876376aede71bc0db833506e92b7a2dd.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="810d0dd6cc636c36d029ceb6e2be7a4d" style="min-width: 30px; min-height: 30px; width: 224px; height: 71px; left: 706px; top: 580px;"><div class="sl-block-content" style="z-index: 26;"><img style="" data-natural-width="1000" data-natural-height="317" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e79d3ce15a363f7ef6311ee164d176f9.png"></div></div></section><section data-id="c2241035d15b9baf3cf57903034ef3ea"><div class="sl-block" data-block-type="image" data-block-id="aec24b4b93a6df062c0611f7b82b8061" style="min-width: 30px; min-height: 30px; width: 960px; height: 595px; left: 0px; top: 0px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="2178" data-natural-height="1350" data-lazy-loaded="" data-src="sendbetter-ncdevcon/0773b325ffd6515b8a40fa7fbe6b42f0.png"></div></div></section><section data-id="6ffbc927ca3ea0a304e88bd9bde6e3ff"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="2870004303f7939115777ea485f7c13e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1><strong>Best Practices: DNS</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 98px; height: auto;" data-block-id="9816fcc9b4624ca0036b86eb5b68dbd7"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<h2>SPF + DKIM</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="268ba7a5c15b0209bcd9453b1a9fa2a0" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 211px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left"><strong>SPF: </strong><em><span style="color:rgb(68, 68, 68); text-align:start">Sender Policy Framework</span></em></p>
+
+<p style="text-align:left">Lets ESPs know what servers are authorized to send email from a domain. Basically just a list of approved senders.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="ae740eaed0a90cd8da96aaeda9daacc8" style="height: auto; min-width: 30px; min-height: 30px; width: 312px; left: 648px; top: 646px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<pre><a href="https://postmarkapp.com/guides/spf" target="_blank"><span style="font-size:0.5em">https://postmarkapp.com/guides/spf</span></a></pre>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="24c168225b8f88e9d10a19f9de8e3a12" style="height: auto; min-width: 30px; min-height: 30px; width: 323px; left: 637px; top: 664px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<pre><a href="https://postmarkapp.com/guides/dkim" target="_blank"><span style="font-size:0.5em">https://postmarkapp.com/guides/dkim</span></a></pre>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 395px;" data-block-id="5f545b8cdd0b28b0fa7825c038411876"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p style="text-align:left"><strong>DKIM:</strong> <em><span style="color:rgb(68, 68, 68); text-align:start">DomainKeys Identified Mail</span></em></p>
+
+<p style="text-align:left">Enables ESPs to verify the sending domain of an email and that its contents have not been altered-in-transit. The sender digitally signs the email <span style="color:rgb(51, 51, 51); text-align:left">using a private key that recipients can authenticate via a public key. </span></p>
+</div></div></section><section data-id="67e748ad95b221597cdc7134f3b2e869"><div class="sl-block" data-block-type="text" style="width: 560px; left: 400px; top: 6px; height: auto;" data-block-id="b3796c80b461a697cde8ec72460e8f65"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1 style="text-align:left"><span style="font-size:0.9em"><strong>Setup/Example</strong></span></h1>
+</div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 189px;" data-block-id="e797be3750e1fe238a9edde35fd2d65f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<ul>
+	<li>Prior to adding a domain, you can only email verified recipients</li>
+	<li>Recommended setup is on a subdomain: <em>mg.mattclemente.com</em>
+</li>
+	<li>You can still send from the root domain
+	<ul>
+		<li>@mattclemente.com</li>
+	</ul>
+	</li>
+	<li>Sending from the subdomain can be done to separate reputation
+	<ul>
+		<li>@mg.mattclemente.com</li>
+	</ul>
+	</li>
+	<li>Routes can handle inbound emails to subdomain addresses</li>
+	<li>There isn't support for templates, though there are ways to send the same message to multiple users</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="9aecda4428e98863451771265f0f2598" style="min-width: 30px; min-height: 30px; width: 341px; height: 108px; left: 24px; top: 0px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1000" data-natural-height="317" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e79d3ce15a363f7ef6311ee164d176f9.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="5c374a9c7110c7d9f215515431c5e3f2" style="height: auto; min-width: 30px; min-height: 30px; width: 567px; left: 393px; top: 664px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<pre><a href="https://documentation.mailgun.com/en/latest/api_reference.html" target="_blank"><span style="font-size:0.5em">https://documentation.mailgun.com/en/latest/api_reference.html</span></a></pre>
+</div></div></section><section data-id="7698699e22b1a51a9d1af90fdf82e2fc"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="ee6ab7f0f1da281fdd2d016c9e747c4a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1><strong>Best Practices: DNS</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 97px; height: auto;" data-block-id="52b589314f6fd528edf5b789b1254378"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<h2> SPF       DKIM = DMARC</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 280px;" data-block-id="5ae7d3f8b289d3a71afb9af980cf4848"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left"><strong>DMARC: </strong><span style="font-size:0.9em"><em><span style="color:rgb(68, 68, 68); text-align:start">Domain-based Message Authentication, Reporting &amp; Conformance</span></em></span></p>
+
+<p style="text-align:left">Addresses shortcomings in SPF and DKIM by tying those standards to the "From" domain. Additionally, provides domain owners with reporting on who is sending from their domain, and authority to dictate how it is handled.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 327px; left: 633px; top: 664px;" data-block-id="94ef7f7efbcac6bfac37a2e9d00de0b0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<pre><a href="https://postmarkapp.com/guides/dmarc" target="_blank"><span style="font-size:0.5em">https://postmarkapp.com/guides/dmarc</span></a>
+</pre>
+</div></div>
+
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 97px; height: 97px; left: 272px; top: 86px;" data-block-id="746050f858bd678616c6559649a1922a"><div class="sl-block-style" style="z-index: 15; opacity: 0.75;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/7d886f86d974e3c03820780166e6aec6.png"></div></div></div></section><section data-id="638b59a8c0e2a3fca12208f8148185c7"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="6d420c1a678701571e18ca293147697b"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1><strong>Best Practices: DNS</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 98px; height: auto;" data-block-id="b7f0dc604e40936a442eb5b210fb3ba8"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12;">
+<h2> SPF       DKIM = DMARC</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 327px; left: 633px; top: 664px;" data-block-id="a151d2ca9c166f46b4f2fc966e73c883"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<pre><a href="https://postmarkapp.com/guides/dmarc" target="_blank"><span style="font-size:0.5em">https://postmarkapp.com/guides/dmarc</span></a>
+</pre>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 208px;" data-block-id="5c19138c219bb2e6ae9508d9fe110a15"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left">Domain owners can publish a DMARC record which tells ESPs that SPF and DKIM records must be in "alignment" and what to do if they're not.</p>
+
+<ul>
+	<li style="text-align:left">
+<strong>SPF</strong>: "From" domain matches the Return-Path</li>
+	<li style="text-align:left">
+<strong>DKIM</strong>: the DKIM-signature domain matches the "From" domain</li>
+	<li style="text-align:left">Action if not aligned: None, Quarantine, Reject</li>
+	<li style="text-align:left">Provides a way for ESPs to report back about emails handled</li>
+	<li style="text-align:left">Reporting can be done without impacting email delivery</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="5c043a16a414392b1a7f112891b0315d" style="min-width: 30px; min-height: 30px; width: 97px; height: 97px; left: 272px; top: 85px;"><div class="sl-block-style" style="z-index: 15; opacity: 0.75;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/7d886f86d974e3c03820780166e6aec6.png"></div></div></div></section><section data-id="b06431be4d6f056155e658922b9787c8"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="e6e09993708faa4d14169706ba29135b"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1><strong>Best Practices: DNS</strong></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 97px; height: auto;" data-block-id="78bb25c44e32c035f576c32d2bd99ef2"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12;">
+<h2> DMARC Resources</h2>
+</div></div>
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 435px;" data-block-id="d096d33f4ebede4f6f489aa7e45c7712"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li style="text-align:left"><a href="https://postmarkapp.com/guides/dmarc" target="_blank">https://postmarkapp.com/guides/dmarc</a></li>
+	<li style="text-align:left"><a href="https://dmarc.postmarkapp.com/" target="_blank">https://dmarc.postmarkapp.com</a></li>
+	<li style="text-align:left"><a href="https://dmarcian.com/dmarc-inspector/" target="_blank">https://dmarcian.com/dmarc-inspector/</a></li>
+	<li style="text-align:left"><a href="https://dmarc.org/" target="_blank">https://dmarc.org</a></li>
+	<li style="text-align:left"><a href="https://tools.ietf.org/html/rfc7489" target="_blank">https://tools.ietf.org/html/rfc7489</a></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 233px;" data-block-id="899cb9b99bfccba018f4f494b14fef7c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left">You should set up a DMARC policy for your domain. You can send DMARC compliant emails from all the transactional email providers discussed.</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="8c50ea87f3de5b7ffd89b97e68a033b0" style="min-width: 30px; min-height: 30px; width: 91px; height: 91px; left: 95px; top: 451px;"><div class="sl-block-style" style="z-index: 15; transform: rotate(270deg);"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/54064e3a7fe9d32e059b3c41041af70e.png"></div></div></div></section><section data-id="7e53682f189a891569b4bc6bf1d96173"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="3f7408fd5f11ba386ef6b7c6cc6bcdbf"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(59, 117, 158);">
+<h1><span style="font-size:0.9em"><strong>Inbound and Webhooks</strong></span></h1>
+</div></div>
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 388px; height: 97px; left: 430px; top: 85px;" data-block-id="3b9c771b55956bc26a452cce38a44ce5"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="2500" data-natural-height="625" data-lazy-loaded="" data-src="sendbetter-ncdevcon/359c870239e05fe66a05921cf7334bb0.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="01d0ab5d8d2e72c8d344799e61d96278" style="min-width: 30px; min-height: 30px; width: 138px; height: 138px; left: 42px; top: 126px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/d7ab539c66eac34d9501c5193c253f02.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="b6dab0a798e9ea205da4da754c9d927b" style="min-width: 30px; min-height: 30px; width: 163px; height: 163px; left: 225px; top: 84px;"><div class="sl-block-style" style="z-index: 14; transform: rotate(38deg); opacity: 0.66;"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/ea4fc1d60cfcf7b981e35803d0b3da3b.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="2e0de817123e301873f1bf77e2644a5c" style="min-width: 30px; min-height: 30px; width: 131px; height: 60px; left: 818px; top: 320px;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1200" data-natural-height="549" data-lazy-loaded="" data-src="sendbetter-ncdevcon/f1574404e2947d384e0946e5df717817.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="0beb54fdbf505bd0cf55fcc523ab0446" style="min-width: 30px; min-height: 30px; width: 85px; height: 85px; left: 705px; top: 182px;"><div class="sl-block-style" style="z-index: 16; opacity: 0.66;"><div class="sl-block-content" style="z-index: 16;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/54064e3a7fe9d32e059b3c41041af70e.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="8c053e73d57689f5de12d514197211c5" style="min-width: 30px; min-height: 30px; width: 116px; height: 116px; left: 689px; top: 285px;"><div class="sl-block-content" style="z-index: 17;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/c4bdb8464f55014598d35e4dfc7de3be.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="e3914045d17a1859befb211eb5732498" style="min-width: 30px; min-height: 30px; width: 274px; height: 87px; left: 307px; top: 255px;"><div class="sl-block-style" style="z-index: 18;"><div class="sl-block-content" style="z-index: 18;"><img data-natural-width="1000" data-natural-height="317" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e79d3ce15a363f7ef6311ee164d176f9.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 138px; height: 138px; left: 42px; top: 374px;" data-block-id="c21d060d71f68d54a8f5b291675dee59"><div class="sl-block-content" style="z-index: 19;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/d7ab539c66eac34d9501c5193c253f02.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 163px; height: 163px; left: 188px; top: 318px;" data-block-id="d14104721397a6862ab8c8cb250e7c0e"><div class="sl-block-style" style="z-index: 20; transform: rotate(17deg); opacity: 0.66;"><div class="sl-block-content" style="z-index: 20;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/ea4fc1d60cfcf7b981e35803d0b3da3b.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="a8b9b5e43ee7138edfc752e983553ceb" style="min-width: 30px; min-height: 30px; width: 78px; height: 78px; left: 593px; top: 305px;"><div class="sl-block-style" style="z-index: 21; transform: rotate(80deg); opacity: 0.66;"><div class="sl-block-content" style="z-index: 21;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/1848ef6327b8b2c2f65a41788a80bb66.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 85px; height: 85px; left: 720px; top: 437px;" data-block-id="a934d6205ee282cbe803e175a4e90cbb"><div class="sl-block-style" style="z-index: 22; opacity: 0.66;"><div class="sl-block-content" style="z-index: 22;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/54064e3a7fe9d32e059b3c41041af70e.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="d07c06f016c6d6838a6e44700e937f57" style="min-width: 30px; min-height: 30px; width: 277px; height: 72px; left: 593px; top: 528px;"><div class="sl-block-content" style="z-index: 23;"><img data-natural-width="1034" data-natural-height="269" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/876376aede71bc0db833506e92b7a2dd.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="2118d0afa6c6314c446efa7f3070b223" style="min-width: 30px; min-height: 30px; width: 211px; height: 211px; left: 361px; top: 489px;"><div class="sl-block-style" style="z-index: 24; transform: rotate(180deg); opacity: 0.66;"><div class="sl-block-content" style="z-index: 24;"><img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="sendbetter-ncdevcon/043f3e4a8fd41c3a74ef8487368ae260.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ed94bf3ed3babb0fcf34c740a996124a" style="min-width: 30px; min-height: 30px; width: 136px; height: 136px; left: 180px; top: 564px;"><div class="sl-block-content" style="z-index: 25;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="sendbetter-ncdevcon/b4ed5b58dd56391a79d15f04f2996837.png"></div></div></section><section data-id="f45c0f065428a96d22ace6652c1f81df"><div class="sl-block" data-block-type="text" style="width: 560px; left: 400px; top: 6px; height: auto;" data-block-id="ce1e8209b20b720c483f9d7792b55c3a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1 style="text-align:left"><span style="font-size:0.9em"><strong>Setup/Example</strong></span></h1>
+</div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 189px;" data-block-id="a7def3f8007c70e463e48b324daa910a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<ul>
+	<li>You don't need to "Whitelabel" a domain in order to send</li>
+	<li>Whitelabel setup <em>must </em>be from a subdomain, but is otherwise similar to that of Mailgun.</li>
+	<li>"Automated security" for Whitelabel is uses CNAMES so that SendGrid can manage the DKIM, SPF, and MX records</li>
+	<li>The email object very complex, which has pluses and minuses. All API wrappers use a Builder object to put it together.</li>
+	<li>There is support for hosted email templates.</li>
+	<li class="fragment" data-fragment-index="0">
+	<p>You also should to add <em>include:sendgrid.net</em> to the SPF record of your root domain!</p>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 388px; height: 97px; left: 0px; top: 3px;" data-block-id="b2124c9f661b34725fe031b0b89f2ff7"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="2500" data-natural-height="625" data-lazy-loaded="" data-src="sendbetter-ncdevcon/359c870239e05fe66a05921cf7334bb0.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 465px; left: 495px; top: 664px;" data-block-id="0d42773bfb1bc2e81122be4a47279a02"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<pre style="text-align:left"><a href="https://sendgrid.com/docs/API_Reference/api_v3.html" target="_blank"><span style="font-size:0.5em">https://sendgrid.com/docs/API_Reference/api_v3.html</span></a>
+</pre>
+</div></div></section><section data-id="047aa8ecd420c315973678ddb3499f3f"><div class="sl-block" data-block-type="text" style="width: 560px; left: 400px; top: 6px; height: auto;" data-block-id="0a4590808eca277239e649edcd2d98a7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1 style="text-align:left"><span style="font-size:0.9em"><strong>Setup/Example</strong></span></h1>
+</div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 189px;" data-block-id="fd6de0b70d8d493cbb250160622eeb2d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<ul>
+	<li>Can't send until a domain is set up (only DKIM required)</li>
+	<li style="font-size:30px">Recommended setup is on a subdomain: <em>sp.mattclemente.com<span> </span></em>
+</li>
+	<li>There is robust support for stored templates, including basic <span style="color:rgb(51, 51, 51); text-align:left">substitution</span> logic and defaults</li>
+	<li class="fragment" data-fragment-index="0">You cannot send from the root domain if you have only configured the subdomain.</li>
+	<li class="fragment" data-fragment-index="1">If you verify the root domain, for optimal performance, you should add <em>include:_spf.sparkpostmail.com </em>to your root SPF record</li>
+	<li class="fragment" data-fragment-index="2">Set the Return-Path (Bounce Domain) via the API, not the dashboard.</li>
+	<li class="fragment" style="color:rgb(51, 51, 51)" data-fragment-index="3">The template includes the "From" domain</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 341px; height: 89px; left: 18px; top: 0px;" data-block-id="56951e65914880a39b1e38ec61aef3b2"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1034" data-natural-height="269" data-lazy-loaded="" data-src="sendbetter-ncdevcon/876376aede71bc0db833506e92b7a2dd.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 330px; left: 630px; top: 664px;" data-block-id="741c9c3745b2436023eb8d39d6a3db2c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<pre style="text-align:left"><a href="https://developers.sparkpost.com/api/" target="_blank"><span style="font-size:0.5em">https://developers.sparkpost.com/api</span></a></pre>
+</div></div></section><section data-id="21c3f8029761757e5deac8fa600d6d4e"><div class="sl-block" data-block-type="text" style="width: 560px; left: 400px; top: 6px; height: auto;" data-block-id="d6abf66946971ff4f82bf0c34b92e2a6"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1 style="text-align:left"><span style="font-size:0.9em"><strong>Setup/Example</strong></span></h1>
+</div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 189px;" data-block-id="c97b95919f228d84f10e8c9bc096bf95"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<ul>
+	<li>
+<em><strong>Only</strong></em> transactional emails allowed.</li>
+	<li>You need to verify either a Domain or Email Address to send</li>
+	<li>While subdomain setup can be done, the instructions are geared toward being set up under the root domain.</li>
+	<li>Sender Signatures (verified senders) are different than "Servers", which are used for account organization.</li>
+	<li>Extremely robust template support, including a number of pre-coded, standard templates that can be customized.</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 360px; height: 58px; left: 0px; top: 26px;" data-block-id="fdfbe90819b9487b37da407ee82be240"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="490" data-natural-height="79" data-lazy-loaded="" data-src="sendbetter-ncdevcon/e7c4341f2b83dafb6b5345b2195ba9c4.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 426px; left: 534px; top: 657px;" data-block-id="aa9ddd4a96da5d5a0c7c59eb88fd99a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<pre style="text-align:left"><a href="https://postmarkapp.com/developer/api/overview" target="_blank"><span style="font-size:0.5em">https://postmarkapp.com/developer/api/overview​</span></a><span style="font-size:36px"><a href="https://postmarkapp.com/developer/api/overview" target="_blank">
+</a></span></pre>
+</div></div></section><section data-id="75f56c8c42c62479d2e823ce1b7fb642"><div class="sl-block" data-block-type="text" style="width: 701px; left: 130px; top: 70px; height: auto;" data-block-id="4902371312001c9c5a73be8952a30b83"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(59, 117, 158);">
+<h1><span style="font-size:1.4em"><strong><span style="color:#FFFFFF">send.</span>Better()</strong></span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 579px; left: 191px; top: 210px; height: auto;" data-block-id="41d7ac6aad54790f28d18ae8aa12645f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; color: rgb(51, 51, 51);" dir="ui"><h2>Giving Email a REST</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 330px; left: 315px; top: 304px;" data-block-id="51b6b58555b1f4ce65ccd4ebf5725101"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(106, 110, 111);">
+<p><span style="font-size:1.2em">Matthew Clemente</span></p>
+</div></div>
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 56px; height: 56px; left: 310px; top: 427px;" data-block-id="cd1ce679d91fad3b0a65070ce2b314b1"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="400" data-natural-height="400" data-lazy-loaded="" data-src="sendbetter-ncdevcon/46148f44af3e95e65e0b3dba3d1c69da.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 35px; height: 35px; left: 321px; top: 381px;" data-block-id="784a723dc35699f9d589c9c2849bc62e"><div class="sl-block-style" style="z-index: 14;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="120" data-natural-height="120" data-lazy-loaded="" data-src="sendbetter-ncdevcon/4c19897fb1a48f18788488fe9027f863.png"></div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 235px; left: 365px; top: 436px;" data-block-id="33d019b3194f91319684b3b272a4ff7f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(51, 51, 51);">
+<p style="text-align: left;">@mjclemente84</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 210px; left: 366px; top: 381px;" data-block-id="dfc4a7e79501f8ca7be6b56570cec521"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(51, 51, 51);">
+<p style="text-align:left">@mjclemente</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 338px; left: 311px; top: 521px;" data-block-id="15b54ca02481002a2571db2a14c9e55d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; color: rgb(106, 110, 111);">
+<p><a href="http://blog.mattclemente.com" target="_blank">blog.mattclemente.com</a></p>
+</div></div></section><section data-id="57946fac4b2871d65c59a179f9936d98">
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 20px; top: 150px;" data-block-id="a1301a1454be4c36d6aeb01eac8cfffc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<pre style="color:rgb(51, 51, 51)">​</pre>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 70px;" data-block-id="d40e2e7d69339d6d86995cc49f1af3e1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 50%; letter-spacing: -0.04em;" data-has-letter-spacing="">
+<ul>
+	<li>
+	<pre><a href="http://www.adestra.com/resources/downloadable-reports/2017-consumer-digital-behavior-and-usage-study" target="_blank">http://www.adestra.com/resources/downloadable-reports/2017-consumer-digital-behavior-and-usage-study</a></pre>
+	</li>
+	<li>
+	<pre><a href="https://blogs.adobe.com/conversations/2016/10/email-still-the-alpha-channel.html" target="_blank">https://blogs.adobe.com/conversations/2016/10/email-still-the-alpha-channel.html</a></pre>
+	</li>
+	<li>
+	<pre><a href="https://www.radicati.com/wp/wp-content/uploads/2013/04/Email-Statistics-Report-2013-2017-Executive-Summary.pdf" target="_blank">https://www.radicati.com/wp/wp-content/uploads/2013/04/Email-Statistics-Report-2013-2017-Executive-Summary.pdf</a></pre>
+	</li>
+	<li>
+	<pre><a href="https://www.radicati.com/wp/wp-content/uploads/2014/01/Email-Statistics-Report-2014-2018-Executive-Summary.pdf" target="_blank">https://www.radicati.com/wp/wp-content/uploads/2014/01/Email-Statistics-Report-2014-2018-Executive-Summary.pdf</a></pre>
+	</li>
+	<li>
+	<pre><a href="https://www.radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf" target="_blank">https://www.radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf</a></pre>
+	</li>
+	<li>
+	<pre><a href="https://www.radicati.com/wp/wp-content/uploads/2016/01/Email_Statistics_Report_2016-2020_Executive_Summary.pdf" target="_blank">https://www.radicati.com/wp/wp-content/uploads/2016/01/Email_Statistics_Report_2016-2020_Executive_Summary.pdf</a></pre>
+	</li>
+	<li>
+	<pre><a href="https://www.radicati.com/wp/wp-content/uploads/2017/01/Email-Statistics-Report-2017-2021-Executive-Summary.pdf" target="_blank">https://www.radicati.com/wp/wp-content/uploads/2017/01/Email-Statistics-Report-2017-2021-Executive-Summary.pdf</a></pre>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 924px; left: 12px; top: 17px;" data-block-id="661f73005a38200338c9882d66b06950"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left">Sources of Data and Quotes for Growth of Email</p>
+</div></div></section><section data-id="d2db4e660331067785de87039b50b017">
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" data-block-id="0d38562a1a02c26fc80e6d4889c5fd56" style="height: auto; min-width: 30px; min-height: 30px; width: 957px; left: 0px; top: 70px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 50%;">
+<ul>
+	<li style="color:rgb(51, 51, 51)">
+	<pre><span style="font-size:1.0em"><a href="http://littlebigdetails.com/search/email" target="_blank">http://littlebigdetails.com/search/email</a></span></pre>
+	</li>
+	<li style="color:rgb(51, 51, 51)">
+	<pre><span style="font-size:1.0em"><a href="https://www.plainflow.com/blog/emails-as-product-interfaces/" target="_blank">https://www.plainflow.com/blog/emails-as-product-interfaces/</a></span></pre>
+	</li>
+	<li style="color:rgb(51, 51, 51)">
+	<pre><span style="font-size:1.0em"><a href="https://www.activecampaign.com/blog/email-as-the-interface/" target="_blank">https://www.activecampaign.com/blog/email-as-the-interface/</a></span></pre>
+	</li>
+	<li style="color:rgb(51, 51, 51)">
+	<pre><a href="http://joelcalifa.com/blog/patronizing-passwords/" target="_blank"><span style="font-size:1.0em">http://joelcalifa.com/blog/patronizing-passwords/</span></a></pre>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 920px; left: 12px; top: 17px;" data-block-id="cc296a5101fb1aa282c31a02edb8b65d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p style="text-align:left"><span style="color:rgb(51, 51, 51); text-align:left">Sources for Examples of Transactional Emails as an Interface</span></p>
+</div></div></section></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1069861,"slug":"sendbetter-ncdevcon","title":"send.Better() - Giving Email a Rest","description":"Presentation for NCDevCon 2017","width":960,"height":700,"visibility":"all","published_at":"2017-10-08T17:46:54.876Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/f047d80bf9a067a421161d7a16a83bc4/thumb.jpg?1507400154","view_count":3,"user":{"id":755503,"username":"mjclemente","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/50e931967f576aecf19df15be7bd9bbd?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":false,"lite":true,"team_id":null,"settings":{"id":606004,"present_controls":true,"present_upsizing":true,"present_pointer":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"sky-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1507501175325,"font_typekit":null,"font_google":null,"notes":{"6c7a231767250fa54f932f0965172d5d":"https://sendgrid.com/use-cases/transactional-email/\nhttps://blog.mailchimp.com/what-is-transactional-email/","028d616203e131be9910bbc9104febf0":"The only thing older than asking if coldfusion is dead is asking if email is dead. It might not be sexy, but it certainly isn't dead. \n\nBut we're developers. We know this isn't true. And while we know it intuitively, the data bears it out.","a6f5ab477d3ca4ec741dae264c4ae155":"This is an interesting paradigm that I was recently introduced to. \n\nPoints of interaction with users, obviously, are interfaces.\n\nThis is probably an entire session topic on its own, but I don't want to get too far down the rabbit hole.","cb5ab59d881135d62005ba4a604ef7a7":"Nearly half of us can’t even use the bathroom without checking email... In sum, Americans are addicted to email.\n\nTeens told us that they have email addresses... because \"It's a fact of everyday life\"\n\nEmail is ubiquitous, and consequently, essential.","66f2e10781fedc87b976526c70cafc08":"Not to your mom, spouse, friend, boss, etc.","c2241035d15b9baf3cf57903034ef3ea":"Amazon costs aren't entirely reflective of the true cost, though they still are the cheapest. It doesn't include the cost of inbound parsing, bounce notifications, or any other hooks based on emails, or of the cost of images larger than kb.","9f0708a5305b7f2ed157dd5b4f89fd76":"The comparisons are disingenuous. There are different use cases where each provider is superior. There's certainly overlap, but there are good fits and bad fits.\n\nYou'll see on the next slide, AWS blows everyone else away on cost.\n\nSendgrid has a really strong emphasis on marketing; it has that portion built out for you. It's not an afterthought.\n\nPostmark is rigidly transactional; they claim to have better deliverability and cleaner IPs. In my experience that is the case.\n\nSparkpost and Mailgun both talk about their emphasis on developers, but there are factors, other than cost, that differentiate them.\n\nSparkpost has templates and a more apparent emphasis on marketing and funnels. \n\nMailgun has better routing/webhooks, logs, and data, in general. They also provide a robust (but costly) email validation service.","112c205ff7cb74d073f06c22e768624c":"So, let's start on Sparkpost's website. In the nav, there's a link comparing Sparkpost and Sendgrid.\n\nWe know that's biased, so let's Google it.\n\nThere we see ads for Sendgrid, Mailgun, and Sparkpost. \n\nLet's check Sparkpost vs Mailgun... same thing. Lots of ads.\n\nWell, the original comparison was with Sendgrid. We could try searching for free alternatives. \n\nLook, now we've got AWS in the mix. Interesting.\n\nWe haven't seen Postmark anywhere...\n\nOh, there it is. On their site is a large page with detailed migration guides off of the other services.","6ffbc927ca3ea0a304e88bd9bde6e3ff":"In order to send BETTER you need to set it up right.\n\nThe proper setup is essential to email deliverability, regardless of how your email is being sent.\n\nTransactional email providers make it easy (some more than others, to configure this properly).\n\nYou need to set up the proper SPF records and DKIM signing. These are both security standards that are implemented as DNS text records.\n\nYou should do this will all the transactional email services that we're discussing, even when it's not required.","12cec095092f25bce8147c80dfcd77a0":"* SendGrid: you do not need to set up a domain to send emails.\n\n* Postmark: required that you verify senders, but not necessarily that you set up DKIM and SPF for the domain.\n\n* Mailgun: You can only send to verified recipients from the initial sandbox domain. To set up a domain, you need to set up SPF and DKIM. However, once set up you don't need to send \"from\" that domain.\n\n* Sparkpost: You need to verify a domain in order to send. However, you only need to DKIM. \n\nWhich leads up to the problem with these, which we can demonstrate. Demo time!\n","7698699e22b1a51a9d1af90fdf82e2fc":"DMARC: Domain-based Message Authentication, Reporting \u0026 Conformance\n\nI've heard it described as a band-aid for SPF and DKIM.\n\nAddresses shortcomings in SPF and DKIM by tying those standards to the \"From\" domain. Additionally, provides domain owners with reporting on who is sending from their domain, and authority to dictate how it is handled.\n\nWhat shortcomings? Let's just back to that demo...","b06431be4d6f056155e658922b9787c8":"Postmark (SES): Return-Path\nSparkpost: Bounce Domain\nMailgun: Standard Setup\nSendGrid: Whitelabel\n\nThat subdomain that you verified for Mailgun is used as the Return-Path. Just don't send from domains that you haven't set up.","f45c0f065428a96d22ace6652c1f81df":"Now we're moving on to a completely different type of transactional provider.\n\nSendGrid really does place a very heavy emphasis on marketing emails. They can fill that role.\n\nI like the idea of having a centralized place for managing emails. Additionally, they enable to you send DMARC aligned emails from your marketing source. Other providers (GetResponse) will charge you for this. \n\nEven more liberal than Mailgun, in that you can send from any domain always.\n\nThe subdomains are what is used to set the Return-Path\n\nThe builder object is awesome. Email is complex, and it's an excellent way to keep the complexity, but make it manageable.\n\nTemplates do not support defaults currently.","047aa8ecd420c315973678ddb3499f3f":"Technically all you need is the DKIM to set up a domain... but you really should verify the bounce domain too.\n\nIf you don't do the bounce domain (for the subdomain), you run into the SenderId issue.\n\nThe SPF record for the root is:\n* include:_spf.sparkpostmail.com","8f921bde4a20f27232a455c4193535ec":"The all provide SMTP, as well as REST. \n\nMaybe include what language wrappers are provided here.","443abce9e8dabacbfc77e2578dac2fc1":"Ok, I get it. Email is important. \n\nSo who are we talking about today?","e924050990af30fcaed12eca1d58b646":"But that leaves out a lot of transactional email providers.\n\nYes, yes it does. But I don't have a full week to present, and I don't know everything.\n\nThere are so many of them! \n\nIf you use one of these and want to tell me about it, I'd love to hear.\n\nDON'T READ THIS SLIDE.","87affbb2359ab2d04f4c27b992c940fb":"We need to further clarify who we're talking about.\n\nWe're talking about transactional email providers. Not marketing emails. \n\nHere's are some rough characteristics of of transactional email: \n* Email triggered by a user action or an action they were the target of.\n* Directed to individuals, not groups.\n* Transactional emails are part of an interaction.\n\nYou know what marketing emails are. You get enough of them; they're not the emails getting checked in the bathroom, unless it's to unsubscribe.","4bb9155b7402be1346741addbc047c01":"This is an interesting paradigm that I was recently introduced to. \n\nPoints of interaction with users, obviously, are interfaces.\n\nThis is probably an entire session topic on its own, but I don't want to get too far down the rabbit hole.\n\nWeb first, mobile first, API first... Email first? It's actually a thing:\n\nThose links on the bottom are from Ryan Hoover (Founder of Product Hunt), regarding this idea of building for email first.\n\nLet's quickly look at some examples.","cef06cd4532717f4cb69f0ad0f54153d":"Not to belabor a point, but:\n\nEmail is an opportunity and it doesn't need to be a pain point, and these services make it much easier to work with. \n\n__________\nAn analogy I think works, to an extent is Bootstrap did for HTML what a transactional email service can do for email.\n\nRemember wresting with HTML layouts (float: left, margin-right-10px, padding-top:100px). Bootstrap made it simple, so that you could focus on your application.  ","b77077d8f9a27433b173fcd8c8b8e520":"These are the bread and butter of an application interacting with its users.","9c9defb2a8e6260b480c53a6052ab146":"I'm Matthew Clemente. \n\nI'm a developer and partner at Season 4.\n\nDisclaimer. I am not associated with any of the companies I'm discussing here. I'm just a developer.\n\nMy background is in ColdFusion. ","06fad192ec57da4a866c209ab989ecf1":"If ColdFusion is dead, apparently no one told my son.\n\nThe examples, if I end up showing them, will be in ColdFusion, but there are wrappers for these APIs in most languages. ","2df8ce1c2346193689499043279e4ad6":"Before we get started, I'm going to need a little help. \n\nIf you're willing, could you go to the URL here: \n\nmattclemente.com/help\n\nAnd fill out your name/email. It's just for use in this presentation. When you fill it out, fingers crossed, you'll just get an automated email that I'll discuss later.\n\nThanks!","7e53682f189a891569b4bc6bf1d96173":"Here's what we're gonna do. Hopefully it works.\n\nWe've set up an inbound domain on SendGrid (they all provide this, with slight variations). It will parse the emails, and pass them on as JSON to an endpoint. \n\nWe've set up Zapier as the stand in for an application server. It's storing the emails as a digest.\n\nNow, we've set up an inbound domain on Mailgun. It's pretty awesome, and more configurable. It's posting from a single email address again, to a webhook (again, Zapier).\n\nThe Zapier webhook posts to Sparkpost's API, and uses a template, to deliver the digest. Woohoo!\n\nWith all of these, we have reporting and data on what went on.","b4e1fdfa01f2186bac7b84276277786e":"This example is meant to illustrate, at a high level, the first 4 points here Logging, Extensibility, Reporting/Analytics, Templates.\n\nTypeform -\u003e Zapier -\u003e Postmark -\u003e Template\nAnd you get logging and reporting (open and show)\n\nSo, we're gonna take a look, to see if you guys actually filled out that form.\n\nA note on extensibility.: When you connect your email to a REST/API based implementation, it becomes trivial to connect them with third-party services. (Zapier/Patrick example).\n\nWith templating, it means that you don't need to do the processing. Rather than running your own mustache substitutions and sending the email, just send the variables.","bf01ec91282a8ce49f4110f6a0f37421":"One of the clearest examples of using email as an interface is the One-Click actions that Gmail enables.\n\nAnother common type is the way that Basecamp (and others) enable you to respond by email to comment threads.\n\nAnother common type is the dashboard type email, which provides some type of reporting.\n\nAnd finally, one of my favorite examples of using email as an interface is the magic link email that Slack sends to sign you directly into the app. \n\nI didn't include examples of terrible emails, because I think we've all seen and sent enough of those."}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0 || 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
